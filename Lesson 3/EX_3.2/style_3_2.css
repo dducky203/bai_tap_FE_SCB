@@ -109,9 +109,14 @@ div div img {
 .main .bettween table {
     border-spacing: 0px;
 }
+
+.main .bettween table tr   {
+    display: flex;
+}
 .main .bettween .bettween-2 tr .text {
-    width: 25%;
-    background-color: orange;
+    width: 25% ;
+    background-color: orange ;
+    gradi
   
 }
 

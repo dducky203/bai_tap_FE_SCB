@@ -1,0 +1,47 @@
+.phone div {
+    width: 2000px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.phone {
+    display: flex;
+}
+
+.phone .samsung{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.phone .samsung img {
+    width: 50%;
+    height: 60%; 
+    margin-top: 10px;
+ 
+}
+.phone .samsung .phone-name{
+    color: orange;
+}
+.phone .samsung .price{
+    color:red;
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+
+.phone div:hover{
+    border: 1px solid orange ;
+}
+
+.phone .samsung p:hover{
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+
+
+

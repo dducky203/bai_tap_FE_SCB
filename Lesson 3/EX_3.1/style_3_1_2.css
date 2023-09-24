@@ -1,0 +1,40 @@
+.content {
+    display: flex; 
+    justify-content: space-between;
+    height: 200px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    
+}
+
+.content .menu i {
+    margin-right: 20px;
+    font-size: large;
+}
+
+.content .menu {
+    font-size: large;
+   
+}
+div div div span {
+    font-size: 20px;
+    font-weight: bolder;
+    align-items: baseline;
+}
+
+.content .menu .menu-left{
+    background-color: grey;
+    width: 180px;
+    height: min-content;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.content .menu span {
+    align-items: baseline;
+}
+
+
+
+

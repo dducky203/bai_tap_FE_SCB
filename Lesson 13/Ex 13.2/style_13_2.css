@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.main {
+    border: 2px solid black;
+    width: 70%;
+    height: auto;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 15px;
+    
+}
+
+.form-submit{
+    margin: 20px;
+}
+
+.form-submit button {
+    background-color: #f44243;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    margin: 0px 200px; 
+}
+
+table tr {
+    height: 60px;
+}
+
+
+.form-group td input{
+    width: 500px;
+    height: 30px;
+    margin: 0px 130px;
+    
+}
+#gender{
+    width: 20px;
+    height: 20px ;
+    margin-right: 5px;
+    
+}
+
+.form-message {
+    color: red;
+    font-size: 18px;
+    display: none;
+}

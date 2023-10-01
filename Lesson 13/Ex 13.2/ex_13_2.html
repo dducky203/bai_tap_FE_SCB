@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_13_2.css">
+    
+</head>
+<body>
+
+    <div class="main">
+        <from id="login-form">
+            <table >
+                <tr class="form-group">
+                    <td><label for="fullnamne">Họ và tên </label></td>
+                    <td><input type="text" name="" id="fullname" placeholder="Nhập họ tên..."></td>
+                    <td><span class="form-message" id="error-name">Họ tên phải lớn hơn 8 ký tự</span></td>
+                </tr>
+
+                <tr class="form-group">
+                    <td><label for="gender">Giới tính</label> </td>
+                    <td><input type="radio" name="gender" id="gender">Nam
+                        <input type="radio" name="gender" id="gender">Nữ
+                    </td>
+                </tr>
+
+                <tr class="form-group">
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="" id="email" placeholder="Nhập email..."></td>
+                    <td><span class="form-message" id="error-email">Yêu cầu nhập email</span></td>
+                </tr>
+
+                <tr class="form-group">
+                    <td><label for="phone-number">Số điện thoại</label></td>
+                    <td><input type="number" name="" id="phone-number" placeholder="Nhập số điện thoại..."></td>
+                    <td><span class="form-message" id="error-phone">Yêu cầu nhập SDT</span></td>
+                </tr>
+
+                <tr class="form-group">
+                    <td><label for="password">Mật khẩu</label></td>
+                    <td><input type="password" name="" id="password"></td>
+                    <td><span class="form-message" id="error-password">Yêu cầu nhập mật khẩu</span></td>
+                </tr>
+
+                <tr class="form-group">
+                    <td><label for="repassword">Nhập lại mật khẩu</label></td>
+                    <td><input type="password" name="" id="repassword"></td>
+                    <td><span class="form-message" id="error-repassword">Yêu cầu xác nhận mật khẩu</span></td>
+                </tr>
+            </table>
+        </from>
+    </div>
+
+    <div class="form-submit">
+        <button id="signUp" onclick="checkAll()">Đăng ký</button>
+        <button>Xóa trắng</button>
+    </div>
+    
+    <script src="script_13_2.js"></script>
+</body>
+</html>

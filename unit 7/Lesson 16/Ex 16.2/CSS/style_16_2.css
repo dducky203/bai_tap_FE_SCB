@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('../Image/anh-chill-buon-yodyvn2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+} 
+
+ul{
+    list-style: none;
+}
+
+#header{
+   background-color: gray;
+    width: 100%;
+    height: auto;
+}
+#main-menu {
+    display: flex;
+    
+}
+
+nav #main-menu>li:first-child{
+    margin-right: 600px;
+    margin-left: 50px;
+}
+
+nav #main-menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding: 25px 20px;
+    font-size: 20px;
+}
+
+nav #main-menu li:hover>a{
+    background-color: black;
+    transition: all 0.3s;
+    border-radius: 12px;
+    margin-top: -2px;
+}
+
+ul li .icon{
+    margin: 0 15px;
+    display: none;
+}
+
+#main-menu li{
+    position: relative;
+}
+
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.217);
+    width: 180px;
+    display: none;  
+}
+
+nav #main-menu li:hover .sub-menu    {
+    display: block;
+}
+
+#main-menu ul.sub-menu a{
+    padding: 15px 20px;
+    border-bottom: 1px solid white;
+}
+
+#toggle{
+    text-align: right;
+    padding: 10px 50px;
+    font-size: 30px;
+    color: aliceblue ;
+    cursor: pointer;
+    display: none;  
+}
+
+
+.main{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+.main div {
+    width: 300px;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.144);
+    border: 2px solid white;
+    margin-top: 40px;
+    margin-left: 40%;
+    font-size: 25px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 991px){
+    #header{
+        background-color: gray;
+        background-repeat: repeat;
+     }
+    
+    #main-menu {
+        flex-direction: column;
+        max-width: 500px;
+    }
+    #main-menu li a {
+        width: 250px;
+    }
+
+    nav #main-menu>li:first-child {
+        margin: 0;
+        text-align: center;  
+    }
+
+    nav #main-menu>li:first-child a {
+        font-size: 35px;
+    }
+
+    nav #main-menu li .icon{
+        display: inline-block;
+    }
+
+    #main-menu ul.sub-menu{
+        left: 50px;
+        background-color: unset;
+    }
+
+    #main-menu ul.sub-menu a{
+        border: none;
+        width: 200px;
+    }
+    #toggle{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    nav #main-menu li.support:hover ~ li   {
+        transform: translateY(200px);
+    }
+    
+
+}
+
+
